@@ -109,6 +109,7 @@ int main()
 	}
 	ofstream out("prefix.out");
 	out << ans[ques.size()] << endl;
+	out.clear();
 	delete[] ans;
 	out.close();
 	return 0;
