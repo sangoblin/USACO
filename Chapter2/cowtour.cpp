@@ -63,8 +63,8 @@ int main()
 	
 		for (int j = 0; j < N; j ++)
 			for (int k = 0; k < N; k ++)
-				ans[j][k] = FLT_MAX; //·ÀÖ¹Òç³ö
-	
+				ans[j][k] = FLT_MAX; //
+				
 		for (int j = 0; j < N; j ++)
 			ans[j][j] = 0;
 
@@ -172,7 +172,7 @@ int main()
 				continue;
 			else
 			{
-				for (int ii = 0; ii < fields[i].size(); ii ++)	//Õë¶ÔÒ»Ìõ±ß
+				for (int ii = 0; ii < fields[i].size(); ii ++)	//ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½
 					for (int jj = 0; jj < fields[j].size(); jj ++)
 					{
 						//int max_ = 0;
