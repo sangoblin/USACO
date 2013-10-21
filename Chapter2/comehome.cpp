@@ -105,7 +105,7 @@ int main()
 	{
 		CSol ctmp = dijk.top();
 		dijk.pop();
-		if(!visited[ctmp.idx]) //¿ÉÄÜ»á¶à´Îpop
+		if(!visited[ctmp.idx]) //ï¿½ï¿½ï¿½Ü»ï¿½ï¿½ï¿½ï¿½ï¿½pop
 		{
 			visited[ctmp.idx] = true;
 			ans[ctmp.idx] = ctmp.length;
@@ -132,6 +132,7 @@ int main()
 		}
 	}
 	out << char('A'+idx-1) << ' ' << _min << endl;
+	out.clear();
 	out.close();
 	return 0;
 }
